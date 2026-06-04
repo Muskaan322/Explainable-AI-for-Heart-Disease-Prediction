@@ -127,7 +127,7 @@ The EDA covers target class distribution, age vs heart rate scatter, chest pain 
 
 ---
 
-### Global Feature Importance — Summary Plot
+### Global Feature Importance - Summary Plot
 
 > Which features matter most across all patients? 
 
@@ -137,29 +137,29 @@ Each dot is one patient. Color = feature value (red = high, blue = low). Positio
 
 ---
 
-### Global Feature Importance — Bar Plot
+### Global Feature Importance - Bar Plot
 
 > Ranked mean absolute SHAP values
 
-!(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/stats.png)
+(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/stats.png)
 
 ---
 
-### Individual Patient Explanation — Waterfall Plot
+### Individual Patient Explanation - Waterfall Plot
 
 > Step-by-step breakdown for a single patient 
 
-!(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/patient%20explanation.png)
+(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/patient%20explanation.png)
 
 Shows exactly which features pushed the prediction toward or away from disease for one specific patient, starting from the model's base rate.
 
 ---
 
-### Feature Interaction — Dependence Plot
+### Feature Interaction - Dependence Plot
 
 > How max heart rate (thalach) interacts with disease risk 
 
-!(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAPE-dependence-plot.png)
+(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAPE-dependence-plot.png)
 
 ---
 
