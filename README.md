@@ -6,7 +6,7 @@
 
 ## 📌 Overview
 
-This project predicts heart disease risk from clinical features and explains **why** using SHAP (SHapley Additive exPlanations). It demonstrates end-to-end ML — from data analysis to model deployment — with a focus on model interpretability.
+This project predicts heart disease risk from clinical features and explains **why** using SHAP (SHapley Additive exPlanations). It demonstrates end-to-end ML, from data analysis to model deployment, with a focus on model interpretability.
 
 **Why this matters:** Black-box AI in healthcare is unacceptable. Clinicians need to understand predictions. This project tackles that with state-of-the-art Explainable AI.
 
@@ -113,7 +113,7 @@ This project uses 4 types of SHAP visualisations:
 | **Waterfall** | Single patient explanation |
 | **Dependence** | How one feature interacts with another |
 
-![EDA](outputs/eda.png)
+![EDA.png]
 
 The EDA covers target class distribution, age vs heart rate scatter, chest pain type breakdown, cholesterol boxplots, and a full feature correlation heatmap.
 
@@ -123,7 +123,7 @@ The EDA covers target class distribution, age vs heart rate scatter, chest pain 
 
 > Confusion matrix, ROC curve, and Precision-Recall curve → `outputs/evaluation.png`
 
-![Evaluation](outputs/evaluation.png)
+![model_evaluation.png]
 
 ---
 
@@ -131,7 +131,7 @@ The EDA covers target class distribution, age vs heart rate scatter, chest pain 
 
 > Which features matter most across all patients? → `outputs/shap_summary.png`
 
-![SHAP Summary](outputs/shap_summary.png)
+![summary_plot.png]
 
 Each dot is one patient. Color = feature value (red = high, blue = low). Position on x-axis = impact on prediction.
 
@@ -141,7 +141,7 @@ Each dot is one patient. Color = feature value (red = high, blue = low). Positio
 
 > Ranked mean absolute SHAP values → `outputs/shap_bar.png`
 
-![SHAP Bar](outputs/shap_bar.png)
+![stats.png]
 
 ---
 
@@ -149,7 +149,7 @@ Each dot is one patient. Color = feature value (red = high, blue = low). Positio
 
 > Step-by-step breakdown for a single patient → `outputs/shap_waterfall.png`
 
-![SHAP Waterfall](outputs/shap_waterfall.png)
+![patient explanation.png]
 
 Shows exactly which features pushed the prediction toward or away from disease for one specific patient, starting from the model's base rate.
 
@@ -159,7 +159,7 @@ Shows exactly which features pushed the prediction toward or away from disease f
 
 > How max heart rate (thalach) interacts with disease risk → `outputs/shap_dependence.png`
 
-![SHAP Dependence](outputs/shap_dependence.png)
+![SHAPE-dependence-plot.png]
 
 ---
 
