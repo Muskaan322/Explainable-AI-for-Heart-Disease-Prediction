@@ -141,7 +141,7 @@ Each dot is one patient. Color = feature value (red = high, blue = low). Positio
 
 > Ranked mean absolute SHAP values
 
-(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/stats.png)
+![stats](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/stats.png)
 
 ---
 
@@ -149,7 +149,7 @@ Each dot is one patient. Color = feature value (red = high, blue = low). Positio
 
 > Step-by-step breakdown for a single patient 
 
-(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/patient%20explanation.png)
+![patient](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/patient%20explanation.png)
 
 Shows exactly which features pushed the prediction toward or away from disease for one specific patient, starting from the model's base rate.
 
@@ -159,7 +159,7 @@ Shows exactly which features pushed the prediction toward or away from disease f
 
 > How max heart rate (thalach) interacts with disease risk 
 
-(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAPE-dependence-plot.png)
+![plot](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAPE-dependence-plot.png)
 
 ---
 
