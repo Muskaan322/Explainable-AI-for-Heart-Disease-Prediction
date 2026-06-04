@@ -17,8 +17,7 @@ This project predicts heart disease risk from clinical features and explains **w
 ```
 xai_heart_disease/
 │
-├── notebook.py            ← Full pipeline (EDA → Train → Evaluate → SHAP)
-├── dashboard.py           ← Streamlit web app
+├── run_code.py            ← Full pipeline (EDA → Train → Evaluate → SHAP)
 ├── requirements.txt       ← Dependencies
 ├── README.md
 │
@@ -81,7 +80,7 @@ pip install -r requirements.txt
 ### 2. Run the Full Pipeline
 
 ```bash
-python notebook.py
+Python run_code.py
 ```
 
 This will:
@@ -90,14 +89,6 @@ This will:
 - Generate all evaluation plots
 - Generate all SHAP plots
 - Save model artifacts
-
-### 3. Launch the Dashboard
-
-```bash
-streamlit run dashboard.py
-```
-
-Then open [http://localhost:8501](http://localhost:8501) in your browser.
 
 ---
 
