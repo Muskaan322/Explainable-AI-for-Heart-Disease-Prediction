@@ -113,6 +113,54 @@ This project uses 4 types of SHAP visualisations:
 | **Waterfall** | Single patient explanation |
 | **Dependence** | How one feature interacts with another |
 
+![EDA](outputs/eda.png)
+
+The EDA covers target class distribution, age vs heart rate scatter, chest pain type breakdown, cholesterol boxplots, and a full feature correlation heatmap.
+
+---
+
+## 📉 Model Evaluation
+
+> Confusion matrix, ROC curve, and Precision-Recall curve → `outputs/evaluation.png`
+
+![Evaluation](outputs/evaluation.png)
+
+---
+
+### Global Feature Importance — Summary Plot
+
+> Which features matter most across all patients? → `outputs/shap_summary.png`
+
+![SHAP Summary](outputs/shap_summary.png)
+
+Each dot is one patient. Color = feature value (red = high, blue = low). Position on x-axis = impact on prediction.
+
+---
+
+### Global Feature Importance — Bar Plot
+
+> Ranked mean absolute SHAP values → `outputs/shap_bar.png`
+
+![SHAP Bar](outputs/shap_bar.png)
+
+---
+
+### Individual Patient Explanation — Waterfall Plot
+
+> Step-by-step breakdown for a single patient → `outputs/shap_waterfall.png`
+
+![SHAP Waterfall](outputs/shap_waterfall.png)
+
+Shows exactly which features pushed the prediction toward or away from disease for one specific patient, starting from the model's base rate.
+
+---
+
+### Feature Interaction — Dependence Plot
+
+> How max heart rate (thalach) interacts with disease risk → `outputs/shap_dependence.png`
+
+![SHAP Dependence](outputs/shap_dependence.png)
+
 ---
 
 ## 🧠 Key Findings
