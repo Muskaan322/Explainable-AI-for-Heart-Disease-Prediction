@@ -1,6 +1,6 @@
 # ❤️ Explainable AI for Heart Disease Prediction
 
-> XGBoost + SHAP · UCI Cleveland Dataset · Streamlit Dashboard  
+> XGBoost + SHAP · UCI Cleveland Dataset 
 
 ---
 
