@@ -80,7 +80,7 @@ pip install -r requirements.txt
 ### 2. Run the Full Pipeline
 
 ```bash
-Python run_code.py
+run_code.py
 ```
 
 This will:
@@ -113,7 +113,7 @@ This project uses 4 types of SHAP visualisations:
 | **Waterfall** | Single patient explanation |
 | **Dependence** | How one feature interacts with another |
 
-![EDA.png]
+![EDA](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/EDA.png)
 
 The EDA covers target class distribution, age vs heart rate scatter, chest pain type breakdown, cholesterol boxplots, and a full feature correlation heatmap.
 
@@ -121,17 +121,17 @@ The EDA covers target class distribution, age vs heart rate scatter, chest pain 
 
 ## 📉 Model Evaluation
 
-> Confusion matrix, ROC curve, and Precision-Recall curve → `outputs/evaluation.png`
+> Confusion matrix, ROC curve, and Precision-Recall curve
 
-![model_evaluation.png]
+![Evaluation](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/model_evaluation.png)
 
 ---
 
 ### Global Feature Importance — Summary Plot
 
-> Which features matter most across all patients? → `outputs/shap_summary.png`
+> Which features matter most across all patients? 
 
-![summary_plot.png]
+![Summary Plot](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/summary_plot.png)
 
 Each dot is one patient. Color = feature value (red = high, blue = low). Position on x-axis = impact on prediction.
 
@@ -139,17 +139,17 @@ Each dot is one patient. Color = feature value (red = high, blue = low). Positio
 
 ### Global Feature Importance — Bar Plot
 
-> Ranked mean absolute SHAP values → `outputs/shap_bar.png`
+> Ranked mean absolute SHAP values
 
-![stats.png]
+!(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/stats.png)
 
 ---
 
 ### Individual Patient Explanation — Waterfall Plot
 
-> Step-by-step breakdown for a single patient → `outputs/shap_waterfall.png`
+> Step-by-step breakdown for a single patient 
 
-![patient explanation.png]
+!(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/patient%20explanation.png)
 
 Shows exactly which features pushed the prediction toward or away from disease for one specific patient, starting from the model's base rate.
 
@@ -157,9 +157,9 @@ Shows exactly which features pushed the prediction toward or away from disease f
 
 ### Feature Interaction — Dependence Plot
 
-> How max heart rate (thalach) interacts with disease risk → `outputs/shap_dependence.png`
+> How max heart rate (thalach) interacts with disease risk 
 
-![SHAPE-dependence-plot.png]
+!(https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAPE-dependence-plot.png)
 
 ---
 
