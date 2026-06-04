@@ -159,7 +159,7 @@ Shows exactly which features pushed the prediction toward or away from disease f
 
 > How max heart rate (thalach) interacts with disease risk 
 
-![plot](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAPE-dependence-plot.png)
+![plot](https://github.com/Muskaan322/Explainable-AI-for-Heart-Disease-Prediction/blob/main/SHAP_dependence_plot.png)
 
 ---
 
